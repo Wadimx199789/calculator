@@ -1,0 +1,16 @@
+:root{
+    --body-bcg: linear-gradient(21deg, #dd03e4, #5611ec);
+    --operation-color:#4B5EFC;
+    --delete-color:#4E505F;
+    --text-color:#fff;
+    --bg-color:#000;
+    --btn-color:#2E2F38;
+
+    --familie: 'Lexend Deca', sans-serif;
+    --familie-title: 'Big Shoulders Display',sans-serif;
+    --fs-base:3.2rem;
+    --line-height-base:4rem;
+    --weight-normal:400;
+    --weight-bold:700;
+    --radii:2rem;
+}
