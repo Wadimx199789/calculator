@@ -8,11 +8,14 @@ buttons.addEventListener('click', e => {
     const value = e.target.innerText || '';
     switch (value) {
         case 'AC':
-            res.innerText="";
-        case 'DEL':
-            res.innerText=res.innerText.slice(0,-1);
+            calc.clear();
             break;
-        
+        case 'DEL':
+            calc.delete();
+            break;
+        case "=":
+            calc.getResult();
+            break;
         default:
             calc.append(value);
     }

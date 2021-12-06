@@ -46,6 +46,11 @@ body{
     width: 45rem;
  
 }
+@media (max-width:600px){
+    .header{
+        width: 30rem;
+    }
+}
 .result{
     width: 100%;
     min-height: 10rem;
